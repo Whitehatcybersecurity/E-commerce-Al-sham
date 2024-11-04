@@ -33,6 +33,6 @@ Route::group(['middleware' => ['admin']], function () {
     Route::post('/productstore', [App\Http\Controllers\Backend\ProductController::class, 'ProductStore'])->name('productstore');
     Route::get('/getproductdata', [App\Http\Controllers\Backend\ProductController::class, 'getProductData'])->name('productdata');
     Route::get('/getproduct/{id}', [App\Http\Controllers\Backend\ProductController::class, 'getProductById'])->name('getproductbyid');
-    Route::get('/product/{id}', [App\Http\Controllers\Backend\ProductController::class, 'deleteProduct'])->name('deleteproduct');
+    //Route::get('/product/{id}', [App\Http\Controllers\Backend\ProductController::class, 'deleteProduct'])->name('deleteproduct');
     
 });
