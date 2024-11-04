@@ -1,0 +1,7 @@
+
+/*# sourceMappingURL=custom.min.css.map */
+
+/* Change the color of jquery validation span class */
+span.error {
+    color: red;
+}
